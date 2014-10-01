@@ -1,8 +1,7 @@
 
 ( function(){
 
-  var LS = false;
-  lsTest();
+  
 
   //Constructor
   function Valid(){
