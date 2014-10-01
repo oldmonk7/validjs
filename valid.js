@@ -70,7 +70,8 @@
     }
   }
 
-
+  // Check for the quantative strength of the password, and attaches a value to progressbar element of HTML5
+  // Also checks the quality of the password
   Valid.prototype.passStrength = function(keyUpValue, progressElementID, qualityID){
     
         var level = 0;
@@ -133,6 +134,7 @@
         }
       };
 
+  //Add to Local Storage    
   Valid.prototype.addToLocalStorage = function(key, valueObject){
           
          if(lsTest()){ 
@@ -149,6 +151,7 @@
         }
   };      
 
+  // Remove from LocalStorage
   Valid.prototype.removeFromLocalStorage = function(key){
           
          if(lsTest()){ 
