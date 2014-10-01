@@ -10,6 +10,7 @@ It includes the basic validation for all form items and it uses regular expressi
 
 
 Valid instantiates itself onto the window. This means you can use it right away by including it in the the script tag and use an instance of Valid immediately.
+
 ```html
 <!-- Load Valid -->
 <script src="valid.js"></script>
@@ -20,6 +21,7 @@ Valid instantiates itself onto the window. This means you can use it right away 
 </script>
 ```
 
+Check the source annotated with comments.
 
 ####Author
 
